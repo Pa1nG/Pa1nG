@@ -77,7 +77,7 @@ header > div#menu > a > img {
     margin-left: 15%;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1325px) {
     #logo {
         float: left;
         width: 30%;
@@ -102,6 +102,35 @@ header > div#menu > a > img {
         float: right;
         width: 30%;
     }
+}
+
+@media (max-width: 1324px) and (min-width: 950px) {
+    #logo {
+        float: left;
+        width: 44%;
+    }
+    
+    #logo1 {
+        visibility: hidden;
+        display: none;
+    }
+        
+    #about {
+        float: left;
+        width: 37%;
+    }
+    
+    #menu {
+        visibility: hidden;
+        display: none;
+    }
+
+    #theme {
+        float: right;
+        width: 30%;
+    }
+
+
 }
 
 @media (max-width: 949px) and (min-width: 525px) {
